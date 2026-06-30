@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0184/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0184/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金籙玄靈轉經午朝行道儀
+  date: '2015-08-29 00:12:21.290449'
+  source:
+    repository: kanripo
+    path: KR5b0184
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0184_000-ZTDZ.yaml, hash: 'sha256:80b77ee0f1a09a37901c0c86c43902923431d8fe7b791b6d8b50d6dd7d643be9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0184_000-ZTDZ.markers.yaml, hash: 'sha256:c4bd71f04f9b6135548272af3a25b49a7c70f7a7366ad7a8cd5fa155486a7fec'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0184_SJB_000-090106a
+    span:
+    - body
+    - 0
+    - 2066
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:63b6ddaebcd10844b2161c2ca99610095255cd4952dc1e1faeca945df1ee72a9
